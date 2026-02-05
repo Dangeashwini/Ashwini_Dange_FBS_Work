@@ -1,0 +1,23 @@
+mysql> create table job_histry
+    -> (employee_id int,
+    -> start_date date,
+    -> end_date date,
+    -> job_id int,
+    -> department_id int);
+Query OK, 0 rows affected (0.04 sec)
+
+mysql> desc job_histry;
++---------------+------+------+-----+---------+-------+
+| Field         | Type | Null | Key | Default | Extra |
++---------------+------+------+-----+---------+-------+
+| employee_id   | int  | YES  |     | NULL    |       |
+| start_date    | date | YES  |     | NULL    |       |
+| end_date      | date | YES  |     | NULL    |       |
+| job_id        | int  | YES  |     | NULL    |       |
+| department_id | int  | YES  |     | NULL    |       |
++---------------+------+------+-----+---------+-------+
+5 rows in set (0.00 sec)
+
+mysql>
+
+
